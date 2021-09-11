@@ -19,6 +19,6 @@ struct Intro: Identifiable{
 var intros: [Intro] = [
     
     Intro(image: "food2", title: "Choose your favorite menu", descriptions: "But they are not the inconvenience that our pleasure", color: Color.blue),
-    Intro(image: "food1", title: "Choose your favorite menu", descriptions: "But they are not the inconvenience that our pleasure", color: Color.blue),
-    Intro(image: "food3", title: "Choose your favorite menu", descriptions: "But they are not the inconvenience that our pleasure", color: Color.blue)
+    Intro(image: "food1", title: "Choose your favorite menu", descriptions: "But they are not the inconvenience that our pleasure", color: Color.yellow),
+    Intro(image: "food3", title: "Choose your favorite menu", descriptions: "But they are not the inconvenience that our pleasure", color: Color.red),
 ]

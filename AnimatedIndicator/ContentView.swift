@@ -10,8 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Home()
-            .preferredColorScheme(.dark)
+        GeometryReader{proxy in
+            
+            let size = proxy.size
+            
+            Home(screenSize:size)
+                .preferredColorScheme(.dark)
+        }
+        
     }
 }
 
